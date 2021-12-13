@@ -1,4 +1,4 @@
-# Candy Cane's  Secret Santa
+# Candy Cane's Secret Santa
 
 ## [Contents](#contents)
 
@@ -38,9 +38,30 @@ Ho Ho Ho...!!! Still can’t figure out what to get for your co-workers? We’ve
 
 [Live Site](https://candy-canes-secret-santa.herokuapp.com/)
 
-### **User stories**
+### Project Goals
+
+The goal of this project was to create a Christmas themed site with the goal to be able to take the stress out of picking a secret santa gift. 
+
+### User Goals
+
+The target user is a group of people who would like to do secret santa.
+ * A group of work colleagues or a specific department.
+ * A group of friends.
+ * A large family.
+ * An online group. e.g. Reddit Secrfet Santa. 
+
+### User Stories
+ * As a user I want the site to be easy to use and easy to navigate.
+ * As a user I want the site to get me in the Chrismas spirit.
+ * As a user I want to be able to control my gift wishlist.
+ * As a user I want the hassle of trying to pick a secret santa gift taken care of for me.
 
 ### **Design**
+
+### Design Goals
+ * A simple Christmas themed site that works on all devices.
+ * Ease of navigation.
+ * Be fun enough for users to return to the site.
 
 #### **Color Scheme:**
 
@@ -48,7 +69,14 @@ In the spirit of Christmas, we have decided on a Red White and Green theme, with
 
 #### **Fonts**
 
+Keeping in the Christmas theme we decided on the following fonts:
+  * [Architects Daughter](https://fonts.google.com/specimen/Architects+Daughter?query=archite)
+  * [Fuzzy Bubbles](https://fonts.google.com/specimen/Fuzzy+Bubbles?query=fuzzy+bubbles)
+  * [Candyman](https://www.cdnfonts.com/candyman.font)
+
+
 ### **Wireframes:**
+
 To help keep the design scope, wireframes were created for the proposed pages of the site. There was some deviation from the initial design as each page was implemented to improve the user experience but in general it stayed true to the initial design. 
 
 * Mobile Wireframes:
@@ -90,8 +118,21 @@ A relational database is best suited to this project given the number of relatio
 ## **Features**
 
 ### **Existing Features**
+  * Users are able to to view a gift and choose to add it to their wish list or not.
+  * Every day a new box will open and the user can choose to add it to their wishlist.
+  * On day 11 all gifts on the countdown page are no longer able to be picked. A draw is made matching users with each other.
+  ![Wishlist](static/images/readme/wishlist.png)
+  * Users can view their wishlist and delete items from their wishlist.
+  ![My Wishlist](static/images/readme/my-wishlist.png)
+  * Once matched, the user can see their matched users wishlist and can choose 1 gift from the list to send to them.
+  ![My Wishlist](static/images/readme/wishlist-send.png)
+  * Once a users secret santa has picked their gift, it can be seen in the gifts received page. 
+  ![Wishlist Sent](static/images/readme/wishlist-sent.png)
 
 ### **Features Left to Implement**
+  * Give users the option to pick 1 of 3 gifts per day with the gifts randomly chosen.
+  * Hide the gift the user has received from their secret santa until Christmas day and implement a timer to replace the countdown page timer until Christmas day. 
+  * Ability for the admin to add/remove gifts from the database to customise the gifts available based on budgets set.
 
 ### **Languages**
 
@@ -334,6 +375,7 @@ git push heroku main
 
 27.Go to **Connect to GitHub** enter your GitHub repository details and once found, click **Connect**, under **Automatic deploys** choose **Enable Automatic Deploys**
 
+
 ## **Testing**
 
 ### **User Stories**
@@ -396,4 +438,6 @@ git push heroku main
 
 ## **Credits**
 
-### **Acknowledgements**
+* The hero image and background images were taken from [Pexels](https://www.pexels.com/)
+* The falling snow animation was taken from [Giphy](https://giphy.com/explore/snow-sticker)
+* The Favicon and present icon was taken from [Icons8](https://icons8.com/)
