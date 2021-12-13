@@ -83,6 +83,10 @@
     opacity: 0;
 }
 
+.admin-note h1 {
+    font-family: 'Fuzzy Bubbles' !important;
+}
+
 .paper ol li:hover > .gift-choose {
     opacity: 1;
 }
