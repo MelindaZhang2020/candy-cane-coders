@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="uk-container uk-text-center handlers">
+    <h1 class="uk-text-bold">Oh no, We cant find that page!</h1>
+    <br/><br />
+    <a class="button" href="{% url 'index' %}">Go back to pick out a nice gift :)</a>
+</div>
+{% endblock %}

@@ -291,6 +291,20 @@ button:hover>a {
     float: right;
 }
 
+.handlers {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.handlers h1 {
+    font-family: 'Fuzzy Bubbles';
+    background: rgba(0,0,0,0.5);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 900px) {
     .topnav a:not(:first-child) {
         display: none;
